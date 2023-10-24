@@ -1,0 +1,54 @@
+.messageInputArea {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: #f2f2f2;
+}
+
+.input_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input_box input {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+}
+
+.input_box button {
+    background-color: #3498db;
+    color: #fff;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    padding: 0.5rem 0.5rem;
+    cursor: pointer;
+}
+.input_box .check_btn {
+    background-color: #fff;
+    border: 1px solid #333;
+    color: #333;
+    margin-right: 0.5rem;
+}
+.messageInputArea .correct_message {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5rem;
+    padding: 0.4rem;
+    background-color: rgb(204, 247, 204);
+}
+
+.correct_message p {
+    color: green;
+}
+.correct_message button {
+    background-color: #fff;
+    color: green;
+    border: none;
+    border-radius: 5px;
+    padding: 0.2rem;
+    margin-right: 0.2rem;
+}

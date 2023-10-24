@@ -1,0 +1,27 @@
+# Logs
+grammer-check-frontend/logs
+grammer-check-frontend/*.log
+grammer-check-frontend/npm-debug.log*
+grammer-check-frontend/yarn-debug.log*
+grammer-check-frontend/yarn-error.log*
+grammer-check-frontend/pnpm-debug.log*
+grammer-check-frontend/lerna-debug.log*
+
+grammer-check-frontend/node_modules
+grammer-check-frontend/dist
+grammer-check-frontend/dist-ssr
+grammer-check-frontend/*.local
+
+# Editor directories and files
+grammer-check-frontend/.vscode/*
+grammer-check-frontend/!.vscode/extensions.json
+grammer-check-frontend/.idea
+grammer-check-frontend/.DS_Store
+grammer-check-frontend/*.suo
+grammer-check-frontend/*.ntvs*
+grammer-check-frontend/*.njsproj
+grammer-check-frontend/*.sln
+grammer-check-frontend/*.sw?
+
+# For Backend
+grammer-check-backend/node_modules

@@ -1,0 +1,68 @@
+.chat_window {
+    width: 600px;
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.sender {
+    background-color: #3498db;
+    color: #fff;
+    align-self: flex-end;
+    border-start-start-radius: 8px;
+    border-end-start-radius: 8px;
+    border-end-end-radius: 8px;
+}
+
+.receiver {
+    background-color: #f2f2f2;
+    color: #333;
+    align-self: flex-start;
+    border-end-start-radius: 8px;
+    border-start-end-radius: 8px;
+    border-end-end-radius: 8px;
+}
+.sender_name {
+    font-size: 0.8rem;
+    color: #333;
+    font-weight: 600;
+    margin: 0;
+    margin-left: 5px;
+    align-self: flex-end;
+}
+.receiver_name {
+    font-size: 0.8rem;
+    color: #333;
+    font-weight: 600;
+    margin: 0;
+    align-self: flex-start;
+}
+.message_content {
+    margin: 0.2rem 0;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.message_content .timestamp {
+    display: block;
+    padding: 0.2rem 0;
+    font-size: 0.5rem;
+    color: rgba(255, 255, 255, 0.8);
+    align-self: flex-end;
+}
+
+.message_content.sender .timestamp {
+    color: rgba(255, 255, 255, 0.8);
+}
+.message_content.receiver .timestamp {
+    color: #333;
+}
